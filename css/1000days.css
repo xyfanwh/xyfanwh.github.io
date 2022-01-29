@@ -10,7 +10,6 @@ div.code_box {
     box-sizing: border-box;
     color: white;
     font-family: "Consolas", sans-serif;
-    font-size: larger;
 }
 
 span.code_metadata {
