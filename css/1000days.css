@@ -5,12 +5,12 @@ body {
 div.code_box {
     margin: auto;
     position: absolute;
+    max-width: 80%;
     border: red solid;
     box-sizing: border-box;
     color: white;
     font-family: "Consolas", sans-serif;
-    font-weight: lighter;
-    font-size: x-large;
+    font-size: larger;
 }
 
 span.code_metadata {
