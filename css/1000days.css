@@ -5,7 +5,7 @@ body {
 div.code_box {
     margin: auto;
     position: absolute;
-    max-width: 80%;
+    max-width: 90%;
     height: 12.5em;
     padding: 1em;
     box-sizing: border-box;
