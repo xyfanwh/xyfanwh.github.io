@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="7acacbe3-f4e5-4d02-9943-f55a9179e4c3" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
@@ -41,7 +44,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -78,7 +81,7 @@
       <workItem from="1643259933097" duration="14367000" />
       <workItem from="1643332848953" duration="9270000" />
       <workItem from="1643377444921" duration="10537000" />
-      <workItem from="1643419522099" duration="8052000" />
+      <workItem from="1643419522099" duration="12746000" />
     </task>
     <servers />
   </component>
