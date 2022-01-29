@@ -6,7 +6,8 @@ div.code_box {
     margin: auto;
     position: absolute;
     max-width: 80%;
-    border: red solid;
+    height: 12.5em;
+    padding: 1em;
     box-sizing: border-box;
     color: white;
     font-family: "Consolas", sans-serif;

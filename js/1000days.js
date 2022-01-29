@@ -9,7 +9,7 @@ elem_cout_text.innerText = "你好哇，赵昕悦！"
 
 
 elem_code_box.style.left = (window_width - elem_code_box.clientWidth) / 2 + "px";
-elem_code_box.style.top = (window_height - elem_code_box.clientHeight) / 2 + "px";
+elem_code_box.style.top = window_height * 0.4 - elem_code_box.clientHeight / 2 + "px";
 
 elem_test.innerText = elem_code_box.clientWidth + " , " + elem_code_box.clientHeight +
     "\n" + elem_code_box.style.left + " , " + elem_code_box.style.top +
