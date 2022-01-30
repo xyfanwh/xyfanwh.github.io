@@ -10,11 +10,14 @@ div.code_box {
     margin: auto;
     position: absolute;
     max-width: 87.5%;
-    height: 12.5em;
-    padding: 1em;
+    width: 25rem;
+    height: 12.5rem;
+    border: red solid 1px;
+    padding: 1rem;
     box-sizing: border-box;
     color: white;
     font-family: "Consolas", sans-serif;
+    font-size: 1rem;
 }
 
 span.code_metadata {
