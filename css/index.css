@@ -1,0 +1,140 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+
+#welcome_bg {
+    position: absolute;
+    margin: auto;
+    border: red solid 0px;
+    width: 100%;
+    height: 100%;
+    background: scroll center;
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)),
+                        url("../resource/image/mountain.jpg");
+    -webkit-filter: brightness(0.5) contrast(1) grayscale(0.875) ;
+    z-index: -1;
+}
+
+#link {
+    display: none;
+    position: absolute;
+}
+
+#welcome_text {
+    margin: auto;
+    position: absolute;
+    border: red solid 0px;
+    top: 15vh;
+    left: 10%;
+    height: 60%;
+    width: 80%;
+    padding: 4vw;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 12.5vw;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 100%;
+    word-spacing: 1vw;
+}
+
+#my_character {
+    color: rgba(220, 20, 60, 0.875);
+}
+
+#my_interests_text {
+    position: relative;
+    border: red solid 0px;
+    padding: 0vw;
+    top: 12vw;
+    font-size: 5vw;
+    color: rgba(255, 255, 255, 0.75);
+    line-height: 100%;
+    word-spacing: 0;
+}
+
+#my_interests {
+    padding-bottom: 1vh;
+}
+
+.material-icons {
+    border: red solid 1px;
+}
+
+.my_interest {
+    position: relative;
+    width: 100%;
+}
+
+.fa-lightbulb {
+    padding-left: 2px;
+    padding-right: 1vw;
+    font-size: 75%;
+    color: rgba(255, 215, 0, 0.75);
+}
+
+.fa-book-open {
+    padding-left: 2px;
+    padding-right: 1vw;
+    font-size: 75%;
+    color: rgba(250, 235, 215, 0.8);
+}
+
+.fa-pencil-ruler {
+    padding-left: 2px;
+    padding-right: 1vw;
+    font-size: 75%;
+    color: rgba(173, 216, 230, 0.8);
+}
+
+.fa-code {
+    padding-left: 2px;
+    padding-right: 1vw;
+    font-size: 75%;
+    color: rgba(255, 182, 193, 0.8);
+}
+
+
+@media screen and (min-width: 1366px ){
+    #welcome_text {
+        top: 10vh;
+        left: 20%;
+        height: 80%;
+        width: 60%;
+        font-size: 8vw;
+    }
+
+    #my_interests_text {
+        top: 2vh;
+        font-size: 2vw;
+    }
+
+    .my_interest {
+        float: left;
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1366px){
+    #welcome_text {
+        top: 10vh;
+        left: 20%;
+        height: 80%;
+        width: 60%;
+        font-size: 9vw;
+    }
+
+    #my_interests_text {
+        top: 2vh;
+        font-size: 3vw;
+    }
+
+    .my_interest {
+        float: left;
+        width: 50%;
+    }
+}

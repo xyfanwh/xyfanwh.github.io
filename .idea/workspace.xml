@@ -13,8 +13,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -44,7 +44,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="web.server" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -83,7 +83,9 @@
       <workItem from="1643377444921" duration="10537000" />
       <workItem from="1643419522099" duration="13650000" />
       <workItem from="1643467008012" duration="595000" />
-      <workItem from="1643538241174" duration="4694000" />
+      <workItem from="1643538241174" duration="7663000" />
+      <workItem from="1643595985012" duration="2637000" />
+      <workItem from="1643607117228" duration="28235000" />
     </task>
     <servers />
   </component>

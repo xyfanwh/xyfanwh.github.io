@@ -2,71 +2,29 @@
 <html lang="zh-CN">
 
 <head>
-    <meta charset="UTF-8" />
-    <title>Fan's homepage</title>
-    <script src="http://www.google.com/jsapi?key=Goolge"></script>
-    <script src="js/index.js" defer></script>
-
-    <style>
-        div.meet {
-            margin: auto;
-            width: 50%;
-            color: white;
-            border: 1px solid rgb(45, 42, 46);
-            padding: 10px;
-            font-family: "Times New Roman", Serif;
-            font-size: 5em;
-            font-weight: lighter;
-            line-height: 15%;
-        }
-        body {
-            background-color: rgb(45, 42, 46);
-        }
-        div.code {
-            margin: auto;
-            width: auto;
-            border: 1px solid rgb(45, 42, 46);
-            padding: 10px;
-        }
-        p.code {
-            color: white;
-            font-family: Consolas, sans-serif;
-            font-weight: lighter;
-        }
-    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="css/index.css">
+    <script src="https://kit.fontawesome.com/713f097c42.js" crossorigin="anonymous"></script>
+    <title>Fan's homepage.</title>
 </head>
 
 <body>
 
-<div class="meet">
-    <p>Hi,</p>
-    <p>I'm Fan, </p>
-    <p>
-        a <span style="color: crimson">CLIMBER</span>.
-    </p>
-</div>
-
-<section>
-    <a href="pages/1000days.html">
-        <img id="tom" src="resource/image/tom.jpg" width="75" height="57" alt="" />
-    </a>
-    <div class="code">
-        <p class="code">
-            include&lt;iostream&gt; <br>
-            using namespace std; <br>
-            <br>
-            int main() { <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;cout &lt;&lt; "Hello world!" &lt;&lt; endl; <br>
-            <br>
-            &nbsp;&nbsp;&nbsp;&nbsp;return 0; <br>
-            } <br>
-        </p>
+<div id="welcome_bg"></div>
+<div id="welcome_text">
+    Hi, I'm Fan,<br>
+    a <span id="my_character">CLIMBER</span>.
+    <div id="my_interests_text">
+        <div id="my_interests">And my interests:</div>
+        <div class="my_interest"><i class="far fa-lightbulb"></i>thinking</div>
+        <div class="my_interest"><i class="fas fa-book-open"></i>reading</div>
+        <div class="my_interest"><i class="fas fa-pencil-ruler"></i>design</div>
+        <div class="my_interest"><i class="fas fa-code"></i>programing</div>
     </div>
-    <br>
 
-</section>
+</div>
+<a id="link" href="pages/1000days.html">click me!</a>
 
 </body>
-
-
 </html>

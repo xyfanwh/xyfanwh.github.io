@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="22fe454e-c3d0-432a-aba3-028c93ddcec7" name="test" url="http://127.0.0.1:63342/xyfanwh.github.io">
+        <fileTransfer mountedRoot="F:\WebWork\xyfanwh.github.io" accessType="MOUNT" port="0" />
+      </webServer>
+    </option>
+  </component>
+</project>
