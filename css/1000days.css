@@ -1,0 +1,135 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0;
+    padding: 0;
+    background-color: #2D2A2E;
+}
+
+/* --------------------------------------- code bond set --------------------------------------- */
+#code_file_name {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    width: 16vw;
+    padding: 1vh;
+    border-radius: 0.5vw 0.5vw 0 0;
+    background-color: gainsboro;
+    font-size: 2vh;
+}
+
+#code_box {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    width: 80%;
+    border-top: gainsboro solid 1px;
+    padding: 1vh;
+    font-family: Consolas, monospace;
+    font-size: 3vw;
+    color: white;
+}
+
+.fa-play {
+    position: absolute;
+    top: 20%;
+    right: 11%;
+    padding: 1vh;
+    font-size: 2.5vh;
+    color: #499c54;
+}
+
+/* --------------------------------------- code font set --------------------------------------- */
+.metadata {
+    color: #78DCE8;
+}
+.keyword {
+    color: #FF6188;
+    font-style: italic;
+}
+.method {
+    color: #A9DC76;
+}
+.operator {
+    color: #FF6188;
+}
+.number {
+    color: #AB9DF2;
+}
+.string {
+    color: #FFD866;
+}
+.brace {
+    color: #939293;
+}
+
+
+
+
+/* ---------------------------------------- auto design ---------------------------------------- */
+@media screen and (min-width: 1366px ){
+    /* --------------------------------------- code bond set --------------------------------------- */
+    #code_file_name {
+        top: 10%;
+        left: 25%;
+        width: 8vw;
+        padding: 1vh;
+        border-radius: 0.25vw 0.25vw 0 0;
+        font-size: 2vh;
+    }
+
+    #code_box {
+        position: absolute;
+        top: 15%;
+        left: 25%;
+        width: 50%;
+        font-family: Consolas, monospace;
+        font-size: 1vw;
+        color: white;
+    }
+
+    .fa-play {
+        position: absolute;
+        top: 10%;
+        right: 25.5%;
+        padding: 1vh;
+        font-size: 2.5vh;
+        color: #499c54;
+    }
+}
+
+
+
+/* ---------------------------------------- auto design ---------------------------------------- */
+@media screen and (min-width: 768px) and (max-width: 1366px) {
+    /* --------------------------------------- code bond set --------------------------------------- */
+    #code_file_name {
+        top: 15%;
+        left: 25%;
+        width: 12vw;
+        padding: 1vh;
+        border-radius: 0.5vw 0.5vw 0 0;
+        font-size: 2vh;
+    }
+
+    #code_box {
+        position: absolute;
+        top: 20%;
+        left: 25%;
+        width: 50%;
+        font-family: Consolas, monospace;
+        font-size: 2vw;
+        color: white;
+    }
+
+    .fa-play {
+        position: absolute;
+        top: 15%;
+        right: 25.5%;
+        padding: 1vh;
+        font-size: 2.5vh;
+        color: #499c54;
+    }
+}
