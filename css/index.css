@@ -16,7 +16,8 @@ html, body {
     width: 100%;
     height: 100%;
     background: scroll center;
-    background-image: url("../resource/image/bg_mountain_lg.jpg"),
+    background-image: url("../resource/image/bg_mountain_lg_min.jpg"),
+                    url("../resource/image/bg_mountain_lg_org.jpg"),
                     linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
     -webkit-filter: contrast(1.2);
     z-index: -1;
