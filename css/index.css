@@ -8,6 +8,7 @@ html, body {
     background-color: black;
 }
 
+/* ------------------------------------- welcome and intro ------------------------------------- */
 #welcome_bg {
     position: absolute;
     margin: auto;
@@ -15,15 +16,10 @@ html, body {
     width: 100%;
     height: 100%;
     background: scroll center;
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1)),
-                        url("../resource/image/mountain.jpg");
-    -webkit-filter: brightness(0.5) contrast(1) grayscale(0.875) ;
+    background-image: url("../resource/image/bg_mountain_lg.jpg"),
+                    linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(0, 0, 0, 1));
+    -webkit-filter: contrast(1.2);
     z-index: -1;
-}
-
-#link {
-    display: none;
-    position: absolute;
 }
 
 #welcome_text {
@@ -40,6 +36,8 @@ html, body {
     color: rgba(255, 255, 255, 0.75);
     line-height: 100%;
     word-spacing: 1vw;
+
+    border: red solid 0px;
 }
 
 #my_character {
@@ -50,7 +48,7 @@ html, body {
     position: relative;
     border: red solid 0px;
     padding: 0vw;
-    top: 12vw;
+    top: 2vh;
     font-size: 5vw;
     color: rgba(255, 255, 255, 0.75);
     line-height: 100%;
@@ -61,45 +59,106 @@ html, body {
     padding-bottom: 1vh;
 }
 
-.material-icons {
-    border: red solid 1px;
-}
-
 .my_interest {
     position: relative;
     width: 100%;
 }
 
+i[class^="fa"] {
+     position: relative;
+     width: 15%;
+     text-align: center;
+     font-size: 75%;
+ }
+
 .fa-lightbulb {
-    padding-left: 2px;
-    padding-right: 1vw;
-    font-size: 75%;
     color: rgba(255, 215, 0, 0.75);
 }
 
 .fa-book-open {
-    padding-left: 2px;
-    padding-right: 1vw;
-    font-size: 75%;
     color: rgba(250, 235, 215, 0.8);
 }
 
 .fa-pencil-ruler {
-    padding-left: 2px;
-    padding-right: 1vw;
-    font-size: 75%;
     color: rgba(173, 216, 230, 0.8);
 }
 
 .fa-code {
-    padding-left: 2px;
-    padding-right: 1vw;
-    font-size: 75%;
     color: rgba(255, 182, 193, 0.8);
 }
 
 
+/* ------------------------------------------ top nav ------------------------------------------ */
+.top_nav {
+    position: absolute;
+    width: 100%;
+}
+
+#nav_selections {
+    position: absolute;
+    top: 2vh;
+    left: 10%;
+    width: 80%;
+    font-size: 3vw;
+    font-weight: lighter;
+    letter-spacing: 0.2vw;
+}
+
+.nav_selection:link, .nav_selection:visited {
+    float: left;
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    color: khaki;
+    -webkit-filter: brightness(0.6);
+}
+
+.nav_selection:hover, .nav_selection:active {
+    float: left;
+    width: 25%;
+    text-align: center;
+    text-decoration: none;
+    color: black;
+    background-color: antiquewhite;
+    -webkit-filter: brightness(0.5) opacity(0.5);
+
+}
+
+
+/* -------------------------------------- warning window -------------------------------------- */
+#warning_window {
+    display: none;;
+    position: absolute;
+    width: 100%;
+    border-radius: 3vw;
+    text-align: center;
+    text-decoration: none;
+    background-color: gainsboro;
+    -webkit-filter: brightness(0.5) opacity(0.75);
+    font-size: 4vw;
+    animation: wwin_anim 0.8s;
+}
+
+#warning_window:target {
+    display: block;
+}
+
+#warning_window_close {
+    position: relative;
+    bottom: 2vh;
+    font-size: 3vw;
+}
+
+@keyframes wwin_anim {
+    from {top: -12%}
+    to {top: 0%}
+}
+
+
+
+/* ---------------------------------------- auto design ---------------------------------------- */
 @media screen and (min-width: 1366px ){
+    /* ------------------------------------- welcome and intro ------------------------------------- */
     #welcome_text {
         top: 10vh;
         left: 20%;
@@ -117,9 +176,42 @@ html, body {
         float: left;
         width: 25%;
     }
+
+    i[class^="fa"] {
+        width: 25%;
+    }
+
+
+    /* ------------------------------------------ top nav ------------------------------------------ */
+    #nav_selections {
+        position: absolute;
+        left: 20%;
+        width: 60%;
+    }
+
+    .nav_selection {
+        font-size: 1vw;
+    }
+
+
+    /* -------------------------------------- warning window -------------------------------------- */
+    #warning_window {
+        left: 30%;
+        width: 40%;
+        border-radius: 1vw;
+        font-size: 2vw;
+    }
+
+    #warning_window_close {
+        font-size: 1.5vw;
+    }
 }
 
+
+
+/* ---------------------------------------- auto design ---------------------------------------- */
 @media screen and (min-width: 768px) and (max-width: 1366px){
+    /* ------------------------------------- welcome and intro ------------------------------------- */
     #welcome_text {
         top: 10vh;
         left: 20%;
@@ -136,5 +228,34 @@ html, body {
     .my_interest {
         float: left;
         width: 50%;
+    }
+
+    i[class^="fa"] {
+        width: 20%;
+    }
+
+
+    /* ------------------------------------------ top nav ------------------------------------------ */
+    #nav_selections {
+        position: absolute;
+        left: 20%;
+        width: 60%;
+    }
+
+    .nav_selection {
+        font-size: 1.5vw;
+    }
+
+
+    /* -------------------------------------- warning window -------------------------------------- */
+    #warning_window {
+        left: 30%;
+        width: 40%;
+        border-radius: 1vw;
+        font-size: 2.5vw;
+    }
+
+    #warning_window_close {
+        font-size: 2vw;
     }
 }
